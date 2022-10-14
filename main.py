@@ -69,8 +69,8 @@ def evaluate(sentence):
     
     max_len_inp = MaxLength(input_value)
     max_len_out = MaxLength(output_value)
-    prepare_data(sentence)
     inputs = [input_key.word_index[i] for i in sentence.split(' ')]
+    inputs = prepare_data(sentence)
     inputs = tf.keras.preprocessing.sequence.pad_sequences([inputs], maxlen=max_len_inp, padding='post')
     inputs = tf.convert_to_tensor(inputs)
     results = ''
