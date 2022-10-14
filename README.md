@@ -1,7 +1,7 @@
 # Translate-Deep-Learning
 Translating Persian sentences into English using artificial intelligence algorithm.
 
-# Datasets
+## Datasets
 The datasets are taken from this person's GitHub. https://github.com/omidkashefi/Mizan
 
 ## Concept
