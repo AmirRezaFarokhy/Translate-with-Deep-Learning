@@ -1,4 +1,4 @@
-# Translate-Deep-Learning
+# Translate-Deep-Learning 🤖
 Translating Persian sentences into English using artificial intelligence algorithm.
 
 ## Datasets
